@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Es el título de la pestaña en el navegador -->
+    <title>Home Coffee Shop</title>
+    <!-- Enlazar la página HTML con la hoja de estilos externa css -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Enlazar la página HTML con el FAVICON -->
+    <link rel="shortcut icon" href="assets/images/png/favicon-32x32.png" type="image/x-icon">
+</head>
+<body>
+    <!-- Barra inicial de navegación superior -->
+    <header id="navBar" class="spacing">
+        <div class="container">
+            <nav class="navbar">
+                <!-- Logo de la web -->
+                <div class="navbar-logo">
+                    <a href="index.html">
+                        <img class="adjust-image logo" src="assets/images/png/kaffa_logo_light_2x.png" alt="logo" >
+                    </a>
+                </div>
+                <!-- Sección de opciones -->
+                <ul class="navbar-menu">
+                    <li>
+                        <a class="navbar-menu-link" href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a class="navbar-menu-link navbar-menu-active" href="aboutUs.html">About us</a>
+                    </li>
+                    <li>
+                        <a class="navbar-menu-link" href="products.html">Products</a>
+                    </li>
+                    <li>
+                        <a class="navbar-menu-link" href="blog.html">Blog</a>
+                    </li>
+                    <li>
+                        <a class="navbar-menu-link" href="contacts.html">Contacts</a>
+                    </li>
+                </ul>
+                <!-- Sección de redes sociales -->
+                <ul class="navbar-menu">
+                    <li>
+                        <a class="navbar-menu-sm" href="#" target="_blank">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="navbar-menu-sm" href="#" target="_blank">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="navbar-menu-sm" href="#" target="_blank">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="navbar-menu-sm" href="#" target="_blank">
+                            <i class="fa-brands fa-youtube"></i>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="location" class="spacing">
+        <div class="container">
+            <h1>About us</h1>
+            <p><a href="index.html"><i class="fa-solid fa-location-crosshairs"></i> Home</a> > About us</p>
+        </div>
+    </section>
+
+    <section id="video">
+        <video muted autoplay loop class="adjust-video">
+            <source src="assets/videos/video-coffee.mp4" type="video/mp4">
+        </video>
+    </section>
+
+    <!-- Sección de pie de pagina -->
+    <footer id="footer" class="spacing">
+        <div class="container">
+            <div class="row">
+                <div class="column">
+                    <div class="footer-container-img">
+                        <img class="adjust-image" src="./assets/images/png/kaffa_logo_light_1x.png" alt="Kaffa" srcset="./assets/images/png/kaffa_logo_light_2x.png">
+                    </div>
+                    <div class="footer-container-description">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor ipsum fuga libero optio? Perferendis, doloribus porro! Nostrum, nulla eos alias recusandae officia eius omnis accusantium asperiores vitae sit reprehenderit aliquam? Modi porro omnis ut assumenda ab, corrupti veniam mollitia quae?</p>
+                    </div>
+                    <div class="row footer-section-sm">
+                        <a href="http://kaffa.like-themes.com/home-house/#" target="_blank">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                        <a href="http://kaffa.like-themes.com/home-house/#" target="_blank">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                        <a href="http://kaffa.like-themes.com/home-house/#" target="_blank">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="http://kaffa.like-themes.com/home-house/#" target="_blank">
+                            <i class="fa-brands fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="column">
+                    <h2 class="footer-title">Contact Info</h2>
+                    <div class="location-group">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <div>
+                            <p class="location-title">Our Location</p>
+                            <p class="location-text">Rio de Janeiro, RJ Brazil, 04103 Route</p>
+                        </div>
+                    </div>
+                    <div class="location-group">
+                        <i class="fa-solid fa-phone-volume"></i>
+                        <div>
+                            <p class="location-title">Phones:</p>
+                            <p class="location-text">+49078-039-23-11</p>
+                            <p class="location-text">+49078-028-55-60</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <h2 class="footer-title">Suscribe</h2>
+                    <div class="double-column ">
+                        <input class="input-field" type="search" />
+                        <input type="submit" value="Enviar" class="footer-btn" >
+                    </div>
+                    <div class="form-terms-container">
+                        <input type="checkbox" required > I accept the
+                        <a target="_blank" href="/" class="terms-text">terms and conditions</a> 
+                        of treatment privacy of my data.
+                    </div>
+                </div>
+            </div>
+            <p class="footer-copyright">© All Rights Reserved - 2020</p>
+        </div>
+    </footer>
+</body>
+</html>
